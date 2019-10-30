@@ -1,0 +1,61 @@
+html {
+    font-family: avenir next condensed;
+    font-weight: lighter;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.navigation {
+  list-style-type: none;
+  background-color: #f2446d;
+  /*position: relative;*/
+  /*left: 175px;*/
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  float: left;
+}
+
+p a {
+  display: block;
+  color: white;
+  padding: 14px 30px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  text-decoration: none;
+  font-size: 26pt; 
+  position: relative;
+  left: 50px;
+}
+
+p img {
+    height: 50px;
+}
+
+p a:hover:not(.active) {
+  color: darkred;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.logo {
+    /*position: relative;
+    left: 160px;*/
+    float: left;
+}
+
+.nav {
+    letter-spacing: 2px;
+}
+
+.search {
+    position: relative;
+    display: block;
+    float: right;
+}
