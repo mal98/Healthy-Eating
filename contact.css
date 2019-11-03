@@ -1,0 +1,120 @@
+html {
+  font-family: avenir next condensed, sans-serif;
+  font-weight: lighter;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.navigation {
+  list-style-type: none;
+  border-top: 3px double;
+  border-bottom: 3px double;
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+p a {
+  display: block;
+  color: black;
+  padding: 14px 30px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  text-decoration: none;
+  font-size: 25pt; 
+  position: relative;
+}
+
+.nav {
+  letter-spacing: 2px;
+}
+
+p a:hover:not(.active) {
+  color: darkred;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.pageTitle {
+  width: 100%;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  text-align: center;
+  height: 210px;
+  border: 1px double white;
+}
+
+img {
+  padding: 1%;
+  float: left;
+  padding-left: 10%;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 70px;
+  letter-spacing: 3px;
+  padding-left: 5%;
+}
+
+h3 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.search {
+  text-align: center;
+  border: 1px double;
+  padding-bottom: 5%;
+  float: right;
+  width: 40%;
+  height: 270px;
+}
+
+.description {
+	text-align: center;
+  float: left;
+	width: 50%;
+  height: 260px;
+	padding: 3%;
+  border: 1px double;
+  margin-bottom: 3%;
+}
+
+
+form {
+  clear: both;
+  border: 1px double;
+}
+
+.message {
+  float: right;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-right: 10%;
+}
+
+table {
+  float: left;
+  padding-left: 15%;
+  padding-top: 5%;
+}
+
+
+footer {
+  clear: both;
+  border-top: 1px double;
+  margin-top: 3%;
+}
+
+.date {
+  float: left;
+}
+
+#signatures {
+  float: right;
+}

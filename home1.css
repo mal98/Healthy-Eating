@@ -1,0 +1,116 @@
+html {
+  font-family: avenir next condensed, sans-serif;
+  font-weight: lighter;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.navigation {
+  list-style-type: none;
+  border-top: 3px double;
+  border-bottom: 3px double;
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+p a {
+  display: block;
+  color: black;
+  padding: 14px 30px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  text-decoration: none;
+  font-size: 25pt; 
+  position: relative;
+}
+
+p img {
+    height: 50px;
+}
+
+p a:hover:not(.active) {
+  color: darkred;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.logo {
+  margin-left: 7%;
+  margin-top: 5%;
+  float: left;
+}
+
+.nav {
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.rightCol {
+  float: right;
+  width: 40%;
+  margin-top: 5%;
+}
+
+.search {
+  text-align: center;
+  display: block;
+  border: 1px double;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+.description {
+  border: 1px double;
+  padding: 5%;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 5%;
+}
+
+.signup {
+  text-align: center;
+  clear: both;
+}
+
+table {
+  border: 1px double;
+  width: 100%;
+  padding: 3%;
+}
+
+th {
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+td {
+  width: 30%;
+}
+
+footer {
+  border-top: 1px double;
+  margin-top: 3%;
+}
+
+.date {
+  float: left;
+}
+
+#signatures {
+  float: right;
+}
+
