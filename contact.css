@@ -3,6 +3,7 @@ html {
   font-weight: lighter;
   margin-left: 10%;
   margin-right: 10%;
+  background-color: white;
 }
 
 .navigation {
@@ -27,10 +28,12 @@ p a {
 
 .nav {
   letter-spacing: 2px;
+  position: relative;
+  left: 80px;
 }
 
 p a:hover:not(.active) {
-  color: darkred;
+  color: darkgreen;
 }
 
 .active {
@@ -69,26 +72,29 @@ h3 {
 .search {
   text-align: center;
   border: 1px double;
-  padding-bottom: 5%;
+  padding-bottom: 3%;
   float: right;
   width: 40%;
   height: 270px;
+  box-shadow: 0 4px 8px 0 grey, 0 4px 8px 0 grey;
 }
 
 .description {
-	text-align: center;
+  text-align: center;
   float: left;
-	width: 50%;
+  width: 50%;
   height: 260px;
-	padding: 3%;
+  padding: 3%;
   border: 1px double;
   margin-bottom: 3%;
+  box-shadow: 0 4px 8px 0 grey, 0 4px 8px 0 grey;
 }
 
 
 form {
   clear: both;
   border: 1px double;
+  font-size: 24px;
 }
 
 .message {
@@ -108,7 +114,7 @@ table {
 footer {
   clear: both;
   border-top: 1px double;
-  margin-top: 3%;
+  margin-top: 10px;
 }
 
 .date {
